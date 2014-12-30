@@ -135,13 +135,14 @@ color: white;
 text-align: center;
 margin-top: 1.563rem;
 }
-.goals {
+.goals, .flav-sub{
     max-width: 60em;
     margin-left: auto;
     margin-right: auto;
     margin-top: 2em;
+    letter-spacing: 0.03em
 }
-.rehearse{
+.rehearse, .flav-sub{
 	color: #555;
 	text-align: center;
   	font-size: 30px;
@@ -149,9 +150,17 @@ margin-top: 1.563rem;
 }
 .portrait{
 	float: left;
-	max-width: 27%;
+	max-width: 30%;
 	margin-right: 10px;
 	box-shadow: 4px 4px 4px #d3d3d3;
+}
+.assign .devices > li {
+	width: 33.3333333%;
+	float: left;
+	list-style-type: none;
+	margin-right: 15px;		
+	margin-left: 75px;		
+	padding-left: 85px;
 }
 
 @media only screen and (max-width: 500px) {
