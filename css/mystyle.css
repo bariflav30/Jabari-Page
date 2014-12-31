@@ -130,12 +130,12 @@ opacity: 0.6;
 	font-weight: 300;
 	margin-bottom: 8px;
 }
-.introduction .buttons {
+.introduction {
 color: white;
 text-align: center;
 margin-top: 1.563rem;
 }
-.goals, .flav-sub{
+.goals, .flav-sub, .social{
     max-width: 60em;
     margin-left: auto;
     margin-right: auto;
@@ -154,13 +154,44 @@ margin-top: 1.563rem;
 	margin-right: 10px;
 	box-shadow: 4px 4px 4px #d3d3d3;
 }
-.assign .devices > li {
+.assign .illustration > li {
 	width: 33.3333333%;
 	float: left;
 	list-style-type: none;
-	margin-right: 15px;		
-	margin-left: 75px;		
-	padding-left: 85px;
+	margin-top: 15px;
+	margin-right: 70px;		
+	margin-left: 105px;		
+	padding-left: -10px;
+}
+.caption{
+	text-align: center;
+}
+}
+.social {
+background-color: #fff;
+overflow: auto;
+padding-bottom: 9.375rem;
+text-align: center;
+}
+.social hr {
+border: 0;
+border-top: 1px solid #eaebec;
+margin: 1.313rem 0;
+}
+.social .icons > li {
+border-radius: .25rem;
+width: 2.5rem;
+height: 2.5rem;
+display: inline-block;
+margin: 1.25rem 5px;
+border: 1px solid #eaebec;
+padding: 0.625rem 0;
+text-align: center;
+}
+.social .copy {
+font-size: 0.9rem;
+font-weight: 300;
+color: #838994;
 }
 
 @media only screen and (max-width: 500px) {
@@ -169,6 +200,9 @@ margin-top: 1.563rem;
     }
     .intro {
         font-size: 3em;
+    }
+    .assign{
+    	padding: 1em 0;
     }
 }
 @media all and (max-width: 600px) {
