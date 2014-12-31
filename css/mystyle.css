@@ -130,7 +130,7 @@ opacity: 0.6;
 	font-weight: 300;
 	margin-bottom: 8px;
 }
-.introduction {
+.introduction .buttons{
 color: white;
 text-align: center;
 margin-top: 1.563rem;
@@ -151,7 +151,7 @@ margin-top: 1.563rem;
 .portrait{
 	float: left;
 	max-width: 30%;
-	margin-right: 10px;
+	margin-right: 18px;
 	box-shadow: 4px 4px 4px #d3d3d3;
 }
 .assign .illustration > li {
@@ -163,7 +163,16 @@ margin-top: 1.563rem;
 	margin-left: 105px;		
 	padding-left: -10px;
 }
+.assign{
+	height: 15px;
+}
+
+}
 .caption{
+	text-align: center;
+}
+.well{
+	padding-bottom: 15px;
 	text-align: center;
 }
 }
@@ -180,20 +189,23 @@ margin: 1.313rem 0;
 }
 .social .icons > li {
 border-radius: .25rem;
-width: 2.5rem;
-height: 2.5rem;
 display: inline-block;
 margin: 1.25rem 5px;
 border: 1px solid #eaebec;
 padding: 0.625rem 0;
-text-align: center;
+}
+.icons{
+	padding-left: 45px;
 }
 .social .copy {
 font-size: 0.9rem;
 font-weight: 300;
 color: #838994;
 }
+.live{
+	text-align: center;
 
+}
 @media only screen and (max-width: 500px) {
     .introduction  {
         padding: 3em 0;
@@ -204,9 +216,7 @@ color: #838994;
     .assign{
     	padding: 1em 0;
     }
+    .social{
+    	padding: 3em 0;
+    }
 }
-@media all and (max-width: 600px) {
-  .portrait {
-    display: none;
-  }
-  }
