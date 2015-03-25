@@ -134,7 +134,7 @@ color: white;
 text-align: center;
 margin-top: 1.563rem;
 }
-.goals, .flav-sub, .social{
+.goals, .flav-sub, .social, .maps{
     max-width: 60em;
     margin-left: auto;
     margin-right: auto;
@@ -149,6 +149,7 @@ section.goals p {
 	text-align: center;
   	font-size: 67px;
   	text-shadow: 2px 2px 2px #d3d3d3;
+  	padding-bottom: 30px;
 }
 .portrait{
 	float: left;
@@ -164,7 +165,7 @@ section.assign {
 	width: 50%;
 	float: left;
 	list-style-type: none;
-	margin-top: 15px;
+	margin-top: 5px;
 	text-align: center;
 }
 .caption{
@@ -208,6 +209,9 @@ color: #838994;
 }
 .clear{
 	clear: both;
+}
+.mapsapi{
+	text-align: left;
 }
 
 @media only screen and (max-width: 1010px) {
@@ -260,5 +264,24 @@ color: #838994;
 		height: 90px;
 	}
 }
-
-
+.colleft{
+   position: relative;
+   width: 100%;
+   right: 50%;
+   background-color: #f4f4f4
+}
+.col1{
+   position: relative;
+   overflow: hidden;
+   float: left;
+   width: 48%;
+   left: 101%;
+   background-color: #e6e6e6
+}
+.col2{
+   position: relative;
+   overflow: hidden;
+   float: left;
+   width: 48%;
+   left: 3%;
+}
