@@ -114,6 +114,7 @@ ol, ul {
 	background-size: cover;
 	height: 40.938rem;
 	overflow: auto;
+	margin-bottom: 8px;
 }
 .introduction h1{
 	margin-top: 17.5rem;
@@ -138,14 +139,31 @@ margin-top: 1.563rem;
     max-width: 60em;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 2em;
+    margin-top: 0.5em;
     letter-spacing: 0.03em
 }
 section.goals p {
 	padding: 0 15px;
 }
-.rehearse, .flav-sub{
+.rehearse {
 	color: #555;
+	text-align: center;
+  	font-size: 67px;
+  	text-shadow: 2px 2px 2px #d3d3d3;
+  	margin-top: 40px;
+  	padding-top: 5px;
+  	padding-bottom: 30px;
+}
+.flav-sub {
+	color: #ffffff;
+	text-align: center;
+  	font-size: 67px;
+  	text-shadow: 2px 2px 2px #d3d3d3;
+  	padding-top: 5px;
+  	padding-bottom: 30px;
+}
+.maps {
+	color: #333;
 	text-align: center;
   	font-size: 67px;
   	text-shadow: 2px 2px 2px #d3d3d3;
@@ -174,6 +192,13 @@ display: block;
 clear: both;
 }
 .assign .illustration > li {
+	width: 50%;
+	float: left;
+	list-style-type: none;
+	margin-top: 5px;
+	text-align: center;
+}
+.location .illustration > li {
 	width: 50%;
 	float: left;
 	list-style-type: none;
@@ -225,9 +250,15 @@ color: #838994;
 .mapsapi{
 	text-align: left;
 }
-
+.well{
+	color: #fff;
+}
 @media only screen and (max-width: 1010px) {
 	.assign .illustration > li {
+		float: none;
+		width: 100%;
+	}
+	.location .illustration > li {
 		float: none;
 		width: 100%;
 	}
@@ -296,4 +327,24 @@ color: #838994;
    float: left;
    width: 48%;
    left: 3%;
+}
+section.location {
+	width: 100%;
+  	background-color: #fff;
+	margin: auto;
+}
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+a:active {
+    text-decoration: none;
 }
