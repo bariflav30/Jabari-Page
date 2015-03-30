@@ -145,6 +145,9 @@ margin-top: 1.563rem;
 section.goals p {
 	padding: 0 15px;
 }
+section.location p {
+	padding: 0 15px;
+	}
 .rehearse {
 	color: #555;
 	text-align: center;
