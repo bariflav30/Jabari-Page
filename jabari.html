@@ -10,6 +10,10 @@
     'stylesheet' type='text/css'>
     <script src=
     "http://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
+    <link href="ninja-slider.css" rel="stylesheet" type="text/css" />
+    <!--ninjaVideoPlugin.js is required only when the slider contains videos, and its link should be placed before the ninja-slider.js link.-->
+    <script src="ninjaVideoPlugin.js" type="text/javascript"></script>
+    <script src="ninja-slider.js" type="text/javascript"></script>
 </head>
 
 <body>
@@ -99,37 +103,72 @@
         <div class="project">
             <h2 class="flav-sub">Projects</h2>
 
+            <div>
+        <!--start-->
+        <div id='ninja-slider'>
+            <ul>
+                <li><div data-image="img/1.gif"></div></li>
+                <li><div data-image="img/2.gif"></div></li>
+                <li><div data-image="img/3.gif"></div></li>
+                <li><div data-image="img/5.gif"></div></li>
+                <li><div data-image="img/6.gif"></div></li>
+                <li><div data-image="img/7.gif"></div></li>
+                <li><div data-image="img/8.gif"></div></li>
+                <li><div data-image="img/9.gif"></div></li>
+                <li><div data-image="img/10.gif"></div></li>
+                <li><div data-image="img/11.gif"></div></li>
+                <li><div data-image="img/12.gif"></div></li>
+                <li><div data-image="img/13.gif"></div></li>
+                <li><div data-image="img/14.gif"></div></li>
+                <li><div data-image="img/15.gif"></div></li>
+                <li><div data-image="img/17.gif"></div></li>
+                <li><div data-image="img/18.gif"></div></li>
+                <li><div data-image="img/19.gif"></div></li>
+                <li><div data-image="img/20.gif"></div></li>
+                <li><div data-image="img/21.gif"></div></li>
+                <li><div data-image="img/22.gif"></div></li>
+            </ul>
+        </div>
+        <!--end-->
+    </div>
+
             <ul class="illustration">
                 <li>
-                    <img alt="Karma Website" height="243px" src=
-                    "img/landing1.jpg" width="492px">
+                    <a href="http://web.iceportal.com/" target="_blank"><img alt="ICE Portal" height="243px" src=
+                    "img/ice.jpg" width="492px"></a>
 
                     <div class="caption">
-                        <h3 class="well">Karma Website</h3>
+                        <h3 class="well">ICE Portal Website</h3>
                     </div>
                 </li>
 
                 <li>
-                    <img alt="Street Fighter" height="243px" src=
-                    "img/streetfight1.jpg" width="492px">
+                    <a href="http://www.andrews.edu/~jabari/JLA30/JLAW/" target="_blank">
+                    <img alt="Jabari Website" height="243px" src=
+                    "img/jabari-w.jpg" width="492px">
+                    </a>
 
                     <div class="caption">
-                        <h3 class="well">Street Fighter</h3>
+                        <h3 class="well">Jabari Website</h3>
+                    </div>
+                </li>
+
+
+                <li>
+                    <a href="http://www.andrews.edu/~jabari/JLA30/Mobile-Demo-master/" target="_blank">
+                    <img alt="Demo Website" height="243px" src="img/demo1.jpg"
+                    width="492px"></a>
+
+                    <div class="caption">
+                        <h3 class="well">Demo Website</a></h3>
                     </div>
                 </li>
 
                 <li>
-                    <img alt="Shopping Website" height="243px" src=
-                    "img/shopping1.jpg" width="492px">
-
-                    <div class="caption">
-                        <h3 class="well">Shopping List App</h3>
-                    </div>
-                </li>
-
-                <li>
+                    <a href="http://www.andrews.edu/~jabari/JLA30/hot-or-cold-starter-master/" target="_blank">
                     <img alt="Hot or Cold App" height="243px" src=
                     "img/hotorcold1.jpg" width="492px">
+                    </a>
 
                     <div class="caption">
                         <h3 class="well">Hot/Cold App</h3>
@@ -137,8 +176,21 @@
                 </li>
 
                 <li>
+                    <a href="http://www.andrews.edu/~jabari/JLA30/Shopping-List-master/" target="_blank">
+                    <img alt="Shopping Website" height="243px" src=
+                    "img/shopping1.jpg" width="492px">
+                    </a>
+
+                    <div class="caption">
+                        <h3 class="well">Shopping List App</h3>
+                    </div>
+                </li>
+
+                <li>
+                    <a href="http://www.andrews.edu/~jabari/JLA30/Quiz-App-master/" target="_blank">
                     <img alt="Quiz App" height="243px" src="img/quiz1.jpg"
                     width="492px">
+                    </a>
 
                     <div class="caption">
                         <h3 class="well">Quiz App</h3>
@@ -146,8 +198,10 @@
                 </li>
 
                 <li>
+                    <a href="http://www.andrews.edu/~jabari/JLA30/stackerAJAX-master/" target="_blank">
                     <img alt="Stacker Website" height="243px" src=
                     "img/stacker1.jpg" width="492px">
+                    </a>
 
                     <div class="caption">
                         <h3 class="well">Stacker Finder</h3>
@@ -155,20 +209,13 @@
                 </li>
 
                 <li>
+                    <a href="http://www.andrews.edu/~jabari/JLA30/hacked-API-master/" target="_blank">
                     <img alt="API Hack" height="243px" src="img/api1.jpg"
                     width="492px">
+                    </a>
 
                     <div class="caption">
                         <h3 class="well">API Hack</h3>
-                    </div>
-                </li>
-
-                <li>
-                    <img alt="Demo Website" height="243px" src="img/demo1.jpg"
-                    width="492px">
-
-                    <div class="caption">
-                        <h3 class="well">Demo Website</h3>
                     </div>
                 </li>
             </ul>
@@ -181,7 +228,7 @@
 
     <section class="location">
         <div class="project">
-            <h2 class="maps">Contacts</h2>
+            <h2 class="maps">Contact</h2>
 
             <ul class="illustration">
                 <li>
