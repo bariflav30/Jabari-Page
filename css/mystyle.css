@@ -9,7 +9,7 @@ html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abb
     font-size:100%;
     font:inherit;
     vertical-align:baseline;
-    box-sizing:border-box
+    box-sizing:border-box;
 }
 
 /* HTML5 display-role reset for older browsers */
@@ -21,7 +21,6 @@ body {
     line-height:1;
     font-family:'Roboto',sans-serif;
     -webkit-font-smoothing:antialiased
-}
 }
 
 ol,ul {
@@ -231,7 +230,6 @@ section.assign {
     padding-bottom:15px;
     text-align:center
 }
-}
 
 .social {
     background-color:#fff;
@@ -366,6 +364,10 @@ section.assign {
     float:left;
     width:48%;
     left:3%
+}
+
+.myframe{
+     box-shadow: 1px 1px 1px #888;
 }
 
 section.location {
